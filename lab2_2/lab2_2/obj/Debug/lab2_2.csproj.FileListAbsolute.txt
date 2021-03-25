@@ -1,0 +1,7 @@
+E:\VISUAL C#\lab2_2\lab2_2\bin\Debug\lab2_2.exe.config
+E:\VISUAL C#\lab2_2\lab2_2\bin\Debug\lab2_2.exe
+E:\VISUAL C#\lab2_2\lab2_2\bin\Debug\lab2_2.pdb
+E:\VISUAL C#\lab2_2\lab2_2\obj\Debug\lab2_2.csprojAssemblyReference.cache
+E:\VISUAL C#\lab2_2\lab2_2\obj\Debug\lab2_2.csproj.CoreCompileInputs.cache
+E:\VISUAL C#\lab2_2\lab2_2\obj\Debug\lab2_2.exe
+E:\VISUAL C#\lab2_2\lab2_2\obj\Debug\lab2_2.pdb
