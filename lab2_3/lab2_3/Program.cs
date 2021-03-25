@@ -10,18 +10,30 @@ namespace lab2_3
     {
         static void Main(string[] args)
         {
+            Console.CursorVisible = false;
             string letters = "abcdefghijklmnopqrstuvwxyz";
-            Random r = new Random();
-            int size = r.Next(1, 4);
-            StringBuilder str = new StringBuilder(size);
             int numberOfLetter;
-            for (int i = 0; i < size; i++)
+            Random r = new Random();
+            while (true)
             {
-                numberOfLetter = r.Next(0, letters.Length - 1);
-                str.Append(letters[numberOfLetter]);
-                Console.Write(str[i]);
+                int size = r.Next(1, 5);
+                StringBuilder str = new StringBuilder(size);
+                for (int i = 0; i < size; i++)
+                {
+                    numberOfLetter = r.Next(0, letters.Length - 1);
+                    str.Append(letters[numberOfLetter]);
+                }
+                Console.WriteLine(str.ToString() + "\n\nEnter q to exit.");
+                Console.ForegroundColor = ConsoleColor.Black;
+                char key = Console.ReadKey().KeyChar;
+                if (key == 'q' || key == 'Q')
+                    return;
+                else
+                {
+                    Console.ResetColor();
+                    Console.Clear();
+                }
             }
-            Console.ReadKey();
         }
     }
 }
