@@ -13,10 +13,10 @@ namespace lab2_2
         {
             DateTime MyMonth;
             Console.WriteLine("Choose the language: russian, french, english");
-            string str = Console.ReadLine();
+            string str = Console.ReadLine().ToLower();
             while (true)
             {
-                if (str == "russian" || str == "Russian" || str == "RUSSIAN")
+                if (str == "russian")
                 {
                     for (int i = 10; i < 22; i++)  //в цикле будет использован метод AddMonths, отсчет начнется с марта, март+10 = январь
                     {
@@ -25,7 +25,7 @@ namespace lab2_2
                     }
                     break;
                 }
-                else if (str == "french" || str == "French" || str == "FRENCH")
+                else if (str == "french")
                 {
                     for (int i = 10; i < 22; i++)
                     {
@@ -34,7 +34,7 @@ namespace lab2_2
                     }
                     break;
                 }
-                else if (str == "english" || str == "English" || str == "ENGLISH")
+                else if (str == "english")
                 {
                     for (int i = 10; i < 22; i++)
                     {
