@@ -1,0 +1,7 @@
+E:\VISUAL C#\3\3\bin\Debug\3.exe.config
+E:\VISUAL C#\3\3\bin\Debug\3.exe
+E:\VISUAL C#\3\3\bin\Debug\3.pdb
+E:\VISUAL C#\3\3\obj\Debug\3.csprojAssemblyReference.cache
+E:\VISUAL C#\3\3\obj\Debug\3.csproj.CoreCompileInputs.cache
+E:\VISUAL C#\3\3\obj\Debug\3.exe
+E:\VISUAL C#\3\3\obj\Debug\3.pdb
