@@ -1,0 +1,24 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Source.cpp
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.cpp(6,1): warning C4273: Sum: несовместимое связывание dll
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.h(11,34): message : см. предыдущее определение "Sum"
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.cpp(11,1): warning C4273: Subtract: несовместимое связывание dll
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.h(12,34): message : см. предыдущее определение "Subtract"
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.cpp(16,1): warning C4273: Multiply: несовместимое связывание dll
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.h(13,34): message : см. предыдущее определение "Multiply"
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.cpp(21,1): warning C4273: Divide: несовместимое связывание dll
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.h(14,34): message : см. предыдущее определение "Divide"
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.cpp(28,1): warning C4273: Mod: несовместимое связывание dll
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.h(15,34): message : см. предыдущее определение "Mod"
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.cpp(35,1): warning C4273: Abs: несовместимое связывание dll
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.h(16,34): message : см. предыдущее определение "Abs"
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.cpp(41,1): warning C4273: Pow: несовместимое связывание dll
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.h(17,33): message : см. предыдущее определение "Pow"
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.cpp(50,1): warning C4273: Min: несовместимое связывание dll
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.h(18,33): message : см. предыдущее определение "Min"
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.cpp(55,1): warning C4273: Max: несовместимое связывание dll
+C:\Users\pavel\Desktop\Dll1\Dll1\Source.h(19,33): message : см. предыдущее определение "Max"
+  Создание кода...
+     Создается библиотека C:\Users\pavel\Desktop\Dll1\Debug\Dll1.lib и объект C:\Users\pavel\Desktop\Dll1\Debug\Dll1.exp
+  Dll1.vcxproj -> C:\Users\pavel\Desktop\Dll1\Debug\Dll1.dll
