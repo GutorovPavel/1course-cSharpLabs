@@ -1,0 +1,2 @@
+E:\VISUAL C#\lab4\lab4\obj\Debug\lab4.csprojAssemblyReference.cache
+E:\VISUAL C#\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
