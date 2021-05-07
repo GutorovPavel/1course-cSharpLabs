@@ -14,6 +14,13 @@ namespace _3
     }
     abstract class Human
     {
+        public Human(Sex sex, int age, string name, string secondName)
+        {
+            this.sex = sex;
+            Age = age;
+            Name = name;
+            SecondName = secondName;
+        }
         public Sex sex { get; set; }
 
         private int age;
@@ -34,14 +41,6 @@ namespace _3
             get { return secondName; }
             set { secondName = value; }
         }
-
-        private List<Human> groupmate = new List<Human>();
-        public Human this[int index]
-        {
-            get { return groupmate[index]; }
-            set { groupmate.Add(value); }
-        }
-
         public virtual void Information()
         {
             Console.WriteLine($"Info about {Name} {SecondName}:");
@@ -50,17 +49,16 @@ namespace _3
     };
     class Student : Human
     {
+        public Student(Sex sex, int age, string name, string secondName, string university) :
+            base(sex, age, name, secondName)
+        {
+            University = university;
+        }
         private string university;
         public string University
         {
             get { return university; }
             set { university = value; }
-        }
-        private int course;
-        public int Сourse
-        {
-            get { return course; }
-            set { course = value; }
         }
         public override void Information()
         {
@@ -84,6 +82,11 @@ namespace _3
     }
     class Specialist : Student
     {
+        public Specialist(Sex sex, int age, string name, string secondName, string university, string speciality) :
+            base(sex, age, name, secondName, university)
+        {
+            Speciality = speciality;
+        }
         private string speciality;
         public string Speciality
         {
